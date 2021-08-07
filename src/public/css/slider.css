@@ -1,0 +1,24 @@
+
+.slick-prev{
+    top: 277px !important;
+    left: 25px !important;
+    z-index: 1;
+}
+.slick-next{
+    top: 277px !important;
+    right: 25px !important;
+    z-index: 1;
+}
+.slick-next::before, .slick-prev::before{
+    font-size: 45px !important;
+}
+
+.home-slider{
+    max-width: 1600px !important;
+    height: 570px !important;
+    overflow: hidden !important;
+    /* border: 10px solid #6b6b6b8c; */
+    padding: 0px !important;
+    margin-bottom: 15px;
+
+}
